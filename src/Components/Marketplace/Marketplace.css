@@ -1,0 +1,359 @@
+
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+.mclubbox1 {
+    width: 100%;
+    max-width: 1500px; /* Adjust as needed */
+    background-color: #ffffff;
+    color: #000000;
+    padding:15px;
+    justify-content: space-evenly;
+}
+
+
+.mevents-heading {
+    text-align: center;
+    background-color: #fff;
+    color: #A67C00;
+    margin-bottom: -65px;
+    margin-top: 40px;
+    align-items: center;
+    font-size: xx-large;
+    color: #A67C00;
+    font-weight: 800;
+}
+.msub-title {
+    font-weight: 700;
+    font-size: 60px;
+
+}
+
+.mtwo-column-layout {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+    flex-direction: row;
+    background-color: #fff;
+    color: #000;
+}
+
+.mcolumn {
+    flex: 1;
+}
+
+.mvideo-container-large {
+    width: 58%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: 10px;
+}
+
+.mvideo-container-large video {
+    width: 825px;
+    height: 550px; /* Set the height to cover the full height of the container */
+}
+
+.mvideo-container-large h1 {
+    position: absolute;
+    bottom: 450px; /* Adjust as needed */
+    left: 250px; /* Adjust as needed */
+    color: #070707; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    white-space: nowrap;
+}
+
+.mvideo-container-large a {
+    position: absolute;
+    bottom: 55px; /* Adjust as needed */
+    left: 15px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.mvideo-container-large a.mregister-btn {
+    bottom: 45px;
+    left: 710px;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    white-space: nowrap;
+     /* Adjust as needed */
+}
+.smvideo-container-large {
+    width: 38%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: 10px;
+    height: 30%;
+    margin-top: 43px; /* Adjust as needed */
+}
+
+.smvideo-container-large video {
+    width: 585px;
+    height: 465px; /* Set the height to cover the full height of the container */
+    background-color: #000;
+}
+
+.smvideo-container-large h1 {
+    position: absolute;
+    bottom: 100px; /* Adjust as needed */
+    left: 90px; /* Adjust as needed */
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.smvideo-container-large a {
+    position: absolute;
+    bottom: -295px; /* Adjust as needed */
+    left: 15px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.smvideo-container-large a.smregister-btn {
+    bottom: -300px;
+    left: 445px;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    white-space: nowrap;
+     /* Adjust as needed */
+}
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+
+
+
+.smvideo-container-large2 {
+    width: 58%; /* Set the width to cover the full left column */
+    position: absolute;
+    right: 8px;
+    margin-top: -30px;
+}
+
+.smvideo-container-large2 video {
+    width: 825px;
+    height: 550px; 
+    margin-left: 15px;/* Set the height to cover the full height of the container */
+}
+
+.smvideo-container-large2 h1 {
+    position: absolute;
+    bottom: 450px; /* Adjust as needed */
+    left: 200px; /* Adjust as needed */
+    color: #fff8f8; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    white-space: nowrap;
+}
+
+.smvideo-container-large2 a.smvisit2 {
+    position: absolute;
+    bottom: 55px; /* Adjust as needed */
+    left: 31px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.smvideo-container-large2 a.smregister-btn2 {
+    bottom: 45px;
+    left: 725px;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    white-space: nowrap;
+    font-weight: 700;
+     /* Adjust as needed */
+}
+.smvideo-container-large2 a.smregister-btn8 {
+    bottom: 45px;
+    left: 365px;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    white-space: nowrap;
+    font-weight: 700;
+     /* Adjust as needed */
+}
+
+.mvideo-container-large1 {
+    width: 38%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: 10px;
+    height: 30%;
+    margin-top: 5px; /* Adjust as needed */
+}
+
+.mvideo-container-large1 video {
+    width: 585px;
+    height: 465px; /* Set the height to cover the full height of the container */
+    background-color: #000;
+    margin-top: 8px;
+}
+
+.mvideo-container-large1 h1 {
+    position: absolute;
+    bottom: 75px; /* Adjust as needed */
+    left: 15px; /* Adjust as needed */
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.mvideo-container-large1 a {
+    position: absolute;
+    bottom: -305px; /* Adjust as needed */
+    left: 15px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.mvideo-container-large1 a.mregister-btn1 {
+    bottom: -330px;
+    left: 475px;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    white-space: nowrap;
+     /* Adjust as needed */
+}
+.mcolumn1 {
+    flex: 1;
+    margin-top: -70px;
+}
+/* Assuming the CSS file associated with Club component is named Club.css */
+.mcolumn2 {
+    flex: 1;
+    margin-top: -55px;
+}
+.mvideo-container-large3 {
+    width: 58%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: 10px;
+}
+
+.mvideo-container-large3 video {
+    width: 825px;
+    height: 550px; /* Set the height to cover the full height of the container */
+}
+
+.mvideo-container-large3 h1 {
+    position: absolute;
+    bottom: 450px; /* Adjust as needed */
+    left: 210px; /* Adjust as needed */
+    color: #070707; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    white-space: nowrap;
+}
+
+.mvideo-container-large3 a {
+    position: absolute;
+    bottom: 55px; /* Adjust as needed */
+    left: 15px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.mvideo-container-large3 a.mregister-btn3 {
+    bottom: 45px;
+    left: 700px;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    white-space: nowrap;
+    font-weight: 700;
+    /* Adjust as needed */
+}
+
+.smvideo-container-large4 {
+    width: 38%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: 10px;
+    height: 30%;
+    margin-top: 35px; /* Adjust as needed */
+}
+
+.smvideo-container-large4 video {
+    width: 585px;
+    height: 465px; /* Set the height to cover the full height of the container */
+    background-color: #000;
+    margin-top: 7px;
+}
+
+.smvideo-container-large4 h1 {
+    position: absolute;
+    bottom: 100px; /* Adjust as needed */
+    left: 170px; /* Adjust as needed */
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.smvideo-container-large4 a {
+    position: absolute;
+    bottom: -300px; /* Adjust as needed */
+    left: 21px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+}
+.smvideo-container-large4 a.smvisit5 {
+    position: absolute;
+    bottom: -300px; /* Adjust as needed */
+    left: 235px; /* Adjust as needed */
+    color: #fff; 
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.smvideo-container-large4 a.smregister-btn4 {
+    bottom: -310px;
+    left: 390px;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    white-space: nowrap;
+    font-weight: 700;
+    /* Adjust as needed */
+}

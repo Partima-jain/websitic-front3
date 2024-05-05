@@ -1,0 +1,80 @@
+.carousel{
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+}
+
+.carousel-control-prev{
+    height: 900px;
+}
+.carousel-control-next {
+    height: 900px;
+}
+.carousel .carousel-control-prev-icon{
+    visibility: hidden;
+}
+.carousel:hover .carousel-control-prev-icon{
+    visibility: visible;
+}
+.carousel .carousel-control-next-icon{
+    visibility: visible;
+    
+}
+.carousel:hover .carousel-control-next-icon{
+    visibility: visible;
+
+}
+.carousel-indicators  {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -900px;
+}
+Carousel.Caption{
+    position: "absolute";
+     bottom: "80px";
+      left: "50%";
+       transform: "translateX(-50%)";
+      white-space: nowrap; }
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+/* Media query for screens shorter than 1050px */
+@media screen and (max-height: 1050px) {
+    .carousel {
+      margin-top: 50px; /* Adjust margin-top as needed */
+      height: 300px;
+      width: 100%; /* Adjust height as needed */
+    }
+  
+    .carousel-control-prev,
+    .carousel-control-next {
+      height: 600px; /* Adjust height of carousel controls as needed */
+    }
+  
+    .carousel .carousel-control-prev-icon,
+    .carousel .carousel-control-next-icon {
+      display: none; /* Hide carousel control icons */
+    }
+  
+    .carousel:hover .carousel-control-prev-icon,
+    .carousel:hover .carousel-control-next-icon {
+      display: none; /* Hide carousel control icons on hover */
+    }
+  
+    .carousel-indicators {
+      height: 2px; /* Adjust height of carousel indicators as needed */
+      margin-right: 2px; /* Adjust margin-right as needed */
+      margin-left: 2px; /* Adjust margin-left as needed */
+    }
+  
+    .Carousel.Caption {
+      bottom: 10px; /* Adjust bottom position as needed */
+    }
+  }
+  

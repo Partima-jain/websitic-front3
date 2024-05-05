@@ -1,0 +1,458 @@
+
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+.clubbox2 {
+    width: 100%;
+    max-width: 100%; /* Adjust as needed */
+    background-color: #fbfbfb;
+    color: #000000;
+    margin-top: -30px;
+}
+.sub-title{
+    align-items: center;
+    font-size: xx-large;
+    color: #A67C00;
+    font-weight: 800;
+}
+
+.events-heading {
+    text-align: center;
+    justify-content: center;
+}
+.events-heading h1{
+    margin-left: -50px;
+    
+}
+
+.two-column-layout {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    background-color: #fff;
+    color: #000000;
+}
+
+.column {
+    flex: 1;
+}
+
+.video-container-large {
+    width: 100%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: -30px;
+}
+
+.video-container-large video {
+    width: 1050px;
+    height: 548px; /* Set the height to cover the full height of the container */
+}
+
+.video-container-large h1 {
+    position: absolute;
+    bottom: 490px; /* Adjust as needed */
+    left: 280px; /* Adjust as needed */
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.video-container-large a {
+    position: absolute;
+    bottom: -50px; /* Adjust as needed */
+    left: 90px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+
+}
+.video-container-large a.register-btn {
+    bottom: 28px;
+    left: 665px;
+    position: absolute;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-style: bold;
+    /* Adjust as needed */
+}
+
+
+.video-row {
+    display: flex;
+    flex-direction: column; /* Set the direction to row */
+    justify-content: space-between;
+    width: 100%; /* Set the width to 100% */
+    margin-left: 320px;
+}
+
+.video-container-small {  /* Adjust as needed */
+    width: 100%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-top: -24px;
+    margin-left: -53px;
+}
+
+.video-container-small video {
+    width: 450px;
+    height: 300px;
+}
+.video-container-small1 { /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+    width: 100%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-top: -48px;
+    margin-left: -53px;
+}
+.video-container-small1 video {
+    width: 450px;
+    height: 370px;
+}
+
+
+.video-container-small h5 {
+    position: absolute;
+    bottom: 225px; /* Adjust as needed */
+    left: 45px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px; 
+    font-weight: 800;
+    color: #fff; /* Text color */
+}
+.video-container-small1 h5 {
+    position: absolute;
+    bottom: 260px; /* Adjust as needed */
+    left: 32px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px; /* Adju
+    color: #fff; /* Text color */
+}
+.video-container-small a {
+    position: absolute;
+    bottom: -60px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px; 
+}
+.video-container-small1 a {
+    position: absolute;
+    bottom: -60px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px; 
+}
+
+.video-container-small a.register-btn {
+    bottom: 57px;
+    left: 250px; /* Adjust as needed */
+    position: absolute;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    white-space: nowrap; 
+}
+.video-container-small1 a.register-btn {
+    bottom: 90px;
+    left: 250px; /* Adjust as needed */
+    position: absolute;
+    position: absolute;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    white-space: nowrap; ; 
+    
+}
+
+.video-container-small1 p {
+    margin: 10px 0; /* Adjust as needed */
+}
+
+
+.video-container-small1 a {
+    display: block;
+    margin-top: 10px; /* Adjust as needed */
+}
+.bottomrow {
+    display: flex; /* Use flexbox to arrange items in a row */
+}
+
+.video-container-bottom {
+    width: 50%; /* Set each video container to occupy 50% of the width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 15px; /* Add padding to create space between videos */
+    background-color: #fff;
+    color:#000000;
+    padding-bottom: 20px;
+    margin-top: -95px;
+    justify-content: space-evenly;
+}
+
+.video-container-bottom video {
+    width: 100%; /* Make the video fill the entire width of its container */
+    height: auto /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.bottomrow {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+}
+.visit{
+    position: absolute;
+    bottom: -50px; /* Adjust as needed */
+    left: 90px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+}
+.video-container-bottom h3{
+    position: absolute;
+    left: 150px;
+    margin-top: -370px;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+.video-container-bottom h4{
+    position: absolute;
+    left: 900px;
+    margin-top: -370px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.video-container-bottom a.register-btn1{
+    position: absolute;
+    left: 530px;
+    margin-top: 330px;
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    width: 160px;
+    flex-direction: column;
+    white-space: nowrap; 
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.video-container-bottom a.register-btn2{
+    
+    position: absolute;
+    left: 10px;
+    margin-top: 330px;
+    margin-left: 1255px;
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    width: 160px;
+    flex-direction: column;
+    white-space: nowrap; 
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+/* Existing styles */
+
+/* Media query for screens narrower than 1050px */
+@media screen and (max-width: 1050px) {
+    .events-heading h1 {
+        margin-left: -30px; /* Adjust as needed */
+    }
+    .two-column-layout {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+    }
+    .video-container-large {
+        width: 100%; 
+    }
+    .video-container-large h1 {
+        position: static; 
+        margin-bottom: 10px; 
+        font-size: 20px; 
+        text-align: center; 
+        white-space: nowrap;
+        margin-left: 400px;
+        display: flex;
+    }
+    .video-container-large a.register-btn {
+        bottom: 0px;
+        transform: translateX(-50%); 
+        margin-top: 20px;
+    }
+    .video-container-large a{
+        bottom: 0px;
+    }
+    
+    .video-row {
+        flex-direction: row;
+    }
+    .video-container-large {
+        width: 100%; /* Make the large video container full width */
+    }
+    .video-container-small {
+        left: -300px;
+        width: 500px;
+        margin-top: 50px;
+    }
+    .video-container-small1 {
+        right: 150px;
+        width: 500px;
+        margin-top: 50px;/* Set width to 50% for smaller screens */
+    }
+    .video-container-bottom h3{
+        position: absolute;
+        left: 70px;
+        margin-top: 7px;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+    .video-container-bottom h4{
+        position: absolute;
+        left: 600px;
+        margin-top: 5px;
+        font-size: 1.5rem;
+    }
+    .video-container-bottom a.visitbutton2{
+        position: absolute;
+        left: 770px;
+        margin-top: 395px;
+        text-decoration: none;
+    }
+    .video-container-bottom a.visitbutton1{
+        
+        position: absolute;
+        left: 65px;
+        margin-top: 395px;
+        text-decoration: none;
+    
+    
+    }
+    .video-container-bottom a.register-btn1{
+        position: absolute;
+        left: 350px;
+        margin-top: 305px;
+    
+    }
+    
+    .video-container-bottom a.register-btn2{
+        
+        position: absolute;
+        left: 10px;
+        margin-top: 305px;
+        margin-left: 850px;
+        
+    }
+    .video-container-bottom a.visitbutton2{
+        position: absolute;
+        left: 550px;
+        margin-top: 310px;
+        text-decoration: none;
+    }
+    .video-container-bottom a.visitbutton1{
+        
+        position: absolute;
+        left: 25px;
+        margin-top: 320px;
+        text-decoration: none;
+    
+    
+    }
+
+}
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+/* Media query for screens narrower than 1050px 
+@media screen and (max-width: 1050px) {
+    
+
+    .two-column-layout {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    
+
+    .video-container-large h1 {
+        position: static; 
+        margin-bottom: 10px; 
+        font-size: 20px; 
+        text-align: center; 
+    }
+
+    .video-container-large a.register-btn {
+        bottom: -30px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        margin-top: 20px;
+    }
+
+    .video-row {
+        flex-direction: row;
+        justify-content: center; 
+        margin-top: 20px;
+    }
+
+    .video-container-small {
+        width: 80%; 
+        margin-top: 20px; 
+    }
+
+    .video-container-small1 {
+        width: 80%; 
+        margin-top: 20px; 
+    }
+
+    .video-container-small h5,
+    .video-container-small1 h5 {
+        position: static; 
+        margin-top: 10px;
+        text-align: center; 
+    }
+
+    .video-container-small a.register-btn,
+    .video-container-small1 a.register-btn {
+        bottom: -30px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+    }
+}
+*/

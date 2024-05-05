@@ -1,0 +1,351 @@
+
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+.eclubbox1 {
+    width: 100%;
+    max-width: 100%; /* Adjust as needed */
+   background-color: #ffffff;
+    color: #000000;
+    margin-top: -55px;
+    padding :15px;
+}
+
+.eevents-heading {
+    text-align: center;
+    justify-content: center;
+}
+.eevents-heading h1{
+    margin-left: -50px;
+    margin-bottom: -40px;
+    
+}
+.esub-title{
+    color: #A67C00;
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.etwo-column-layout {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecolumn {
+    flex: 1;
+}
+
+.evideo-container-large {
+    width: 100%; /* Set the width to cover the full left column */
+    position: relative;
+    left: -60px;
+}
+
+.evideo-container-large video {
+    width: 1100px;
+    height: 550px; /* Set the height to cover the full height of the container */
+}
+
+.evideo-container-large h1 {
+    position: absolute;
+    bottom: 470px; /* Adjust as needed */
+    left: 350px; /* Adjust as needed */
+    color: #f9ca3c; /* Text color */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.evideo-container-large a {
+    position: absolute;
+    bottom: -50px; /* Adjust as needed */
+    left: 90px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+
+}
+.evideo-container-large a.eregister-btn {
+    bottom: 20px;
+    left: 890px;
+    position: absolute;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    white-space: nowrap; 
+    /* Adjust as needed */
+}
+
+
+.evideo-row {
+    display: flex;
+    flex-direction: column; /* Set the direction to row */
+    justify-content: space-between;
+    width: 100%; /* Set the width to 100% */
+    margin-left: 320px;
+}
+
+.evideo-container-small {  /* Adjust as needed */
+    width: 100%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-top: -15px;
+    left: -45px;
+    top: 27px;
+    
+}
+
+.evideo-container-small video {
+    width: 440px;
+    height: 290px;
+}
+.evideo-container-small1 { /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+    width: 100%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-top: 40px;
+    left: -45px;
+    top: -5px;
+}
+.evideo-container-small1 video {
+    width: 430px;
+    height: 290px;
+}
+
+.evideo-container-small h5 {
+    position: absolute;
+    bottom: 190px; /* Adjust as needed */
+    left: 75px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px; 
+    font-size: 35px;
+    color: #fff; /* Text color */
+}
+.evideo-container-small1 h5 {
+    position: absolute;
+    bottom: 190px; /* Adjust as needed */
+    left: 80px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px; 
+    font-size: 35px;
+    color: #fff; /* Text color */
+}
+.evideo-container-small a {
+    position: absolute;
+    bottom: -60px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px; 
+}
+.evideo-container-small1 a {
+    position: absolute;
+    bottom: 50px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px; 
+}
+
+.evideo-container-small a.eregister-btn {
+    bottom: 34px;
+    left: 310px; /* Adjust as needed */
+    position: absolute;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid white;
+    white-space: nowrap; 
+}
+.evideo-container-small1 a.eregister-btn {
+    bottom: 34px;
+    left: 300px; /* Adjust as needed */
+    position: absolute;
+    position: absolute;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid white;
+    white-space: nowrap; ; 
+    
+}
+
+.evideo-container-small1 p {
+    margin: 10px 0; /* Adjust as needed */
+}
+
+
+.evideo-container-small1 a {
+    display: block;
+    margin-top: 10px; /* Adjust as needed */
+}
+.ebottomrow {
+    display: flex; /* Use flexbox to arrange items in a row */
+}
+
+.evideo-container-bottom {
+    width: 50%; /* Set each video container to occupy 50% of the width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px; /* Add padding to create space between videos */
+    margin-top: -30px;
+}
+
+.evideo-container-bottom video {
+    width: 100%; /* Make the video fill the entire width of its container */
+    height: auto /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.ebottomrow {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    margin-top: -10px; /* Adjust as needed */
+}
+.evisit{
+    position: absolute;
+    bottom: -50px; /* Adjust as needed */
+    left: 90px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+}
+.evideo-container-bottom h3{
+    position: absolute;
+    left: 155px;
+    margin-top: -325px;
+    flex-direction: column;
+    font-size: 35px;
+    color: #ffffff;
+}
+.evideo-container-bottom h5{
+    position: absolute;
+    left: 260px;
+    margin-top: -345px;
+    flex-direction: column;
+    font-size: 20px;
+    color: #ffffff;
+}
+.evideo-container-bottom h4{
+    position: absolute;
+    left: 905px;
+    margin-top: -345px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.evideo-container-bottom a.evisitbutton2{
+    position: absolute;
+    left: 770px;
+    margin-top: 395px;
+    text-decoration: none;
+}
+.evideo-container-bottom a.evisitbutton1{
+    
+    position: absolute;
+    left: 65px;
+    margin-top: 395px;
+    text-decoration: none;
+
+
+}
+.evideo-container-bottom a.eregister-btn1{
+    position: absolute;
+    left: 590px;
+    margin-top: 325px;
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    width: 130px;
+    flex-direction: column;
+    border: 1px solid white;
+    white-space: nowrap; 
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+    
+}
+
+.evideo-container-bottom a.eregister-btn2{
+    
+    position: absolute;
+    left: 10px;
+    margin-top: 325px;
+    margin-left: 1300px;
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    width: 130px;
+    flex-direction: column;
+    border: 1px solid white;
+    white-space: nowrap; 
+    align-items: center; /* Center-align vertically */
+    justify-content: center; /* Center-align horizontally */
+
+}
+
+.ecolumn {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* Adjustments for widths less than 1050px */
+@media (max-width: 1050px) {
+    .evideo-container-large video {
+        width: 100%; /* Set video width to 100% of the container */
+        height: auto; /* Allow the height to adjust automatically to maintain aspect ratio */
+    }
+
+    .evideo-container-large h1 {
+        bottom: 380px; /* Adjusted bottom position */
+        left: 30px; /* Adjusted left position */
+        font-size: 20px; /* Adjusted font size */
+    }
+
+    .evideo-container-large a {
+        bottom: -50px; /* Adjusted bottom position */
+        left: 20px; /* Adjusted left position */
+    }
+
+    .evideo-container-large a.eregister-btn {
+        bottom: 20px; /* Adjusted bottom position */
+        left: 30px; /* Adjusted left position */
+        font-size: 14px; /* Adjusted font size */
+    }
+}
+
+/* Additional adjustments for smaller screen sizes */
+@media (max-width: 768px) {
+    .evideo-container-large h1 {
+        bottom: 350px; /* Further adjusted bottom position */
+        left: 20px; /* Further adjusted left position */
+        font-size: 16px; /* Further adjusted font size */
+    }
+
+    .evideo-container-large a {
+        bottom: -40px; /* Further adjusted bottom position */
+        left: 15px; /* Further adjusted left position */
+    }
+
+    .evideo-container-large a.eregister-btn {
+        bottom: 10px; /* Further adjusted bottom position */
+        left: 20px; /* Further adjusted left position */
+        font-size: 12px; /* Further adjusted font size */
+    }
+}
